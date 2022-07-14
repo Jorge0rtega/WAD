@@ -1,0 +1,15 @@
+D:\WAD\p222\ProyectoBase3CM13-V3\src\main\java\com\ipn\mx\modelo\entidades\Producto.java
+D:\WAD\p222\ProyectoBase3CM13-V3\src\main\java\com\ipn\mx\modelo\dao\ProductoDAO.java
+D:\WAD\p222\ProyectoBase3CM13-V3\src\main\java\com\ipn\mx\modelo\dto\ProductoDTO.java
+D:\WAD\p222\ProyectoBase3CM13-V3\src\main\java\com\ipn\mx\modelo\entidades\Categoria.java
+D:\WAD\p222\ProyectoBase3CM13-V3\src\main\java\com\ipn\mx\controlador\ProductoServlet.java
+D:\WAD\p222\ProyectoBase3CM13-V3\src\main\java\com\ipn\mx\modelo\dto\GraficaDTO.java
+D:\WAD\p222\ProyectoBase3CM13-V3\src\main\java\com\ipn\mx\controlador\CategoriaServlet.java
+D:\WAD\p222\ProyectoBase3CM13-V3\src\main\java\com\ipn\mx\controlador\UsuarioServlet.java
+D:\WAD\p222\ProyectoBase3CM13-V3\src\main\java\com\ipn\mx\modelo\dao\UsuarioDAO.java
+D:\WAD\p222\ProyectoBase3CM13-V3\src\main\java\com\ipn\mx\modelo\dao\CategoriaDAO.java
+D:\WAD\p222\ProyectoBase3CM13-V3\src\main\java\com\ipn\mx\modelo\dto\UsuarioDTO.java
+D:\WAD\p222\ProyectoBase3CM13-V3\src\main\java\com\ipn\mx\modelo\entidades\Usuario.java
+D:\WAD\p222\ProyectoBase3CM13-V3\src\main\java\com\ipn\mx\utilerias\EnviarMail.java
+D:\WAD\p222\ProyectoBase3CM13-V3\src\main\java\com\ipn\mx\modelo\dao\GraficaDAO.java
+D:\WAD\p222\ProyectoBase3CM13-V3\src\main\java\com\ipn\mx\modelo\dto\CategoriaDTO.java

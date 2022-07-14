@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <!--Se pedira documentar cada linea-->
+    <session-factory>
+        <property name="connection.driver_class">org.postgresql.Driver</property>
+        <property name="connection.url">jdbc:postgresql://localhost:5432/ProyectoBase3CM13</property>
+        <property name="connection.username">postgres</property>
+        <property name="connection.password">jorge</property>
+        <property name="connection.pool_size">1</property>
+        
+        <property name="dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+        <property name="show_sql">true</property>
+        
+        <!--Tarea poner todos los valores que puede recibir y que hace cada uno-->
+        <property name="current_session_context_class">thread</property>
+        <!--Tarea poner todos los valores que puede recibir y que hace cada uno-->
+        <property name="hbm2ddl.auto">update</property>
+        
+        <property name="hibernate.dbcp.initialSize">5</property>
+        <property name="hibernate.dbcp.maxTotal">20</property>
+        <property name="hibernate.dbcp.maxIdle">10</property>
+        <property name="hibernate.dbcp.minIdle">5</property>
+        <property name="hibernate.dbcp.maxWaitMillis">1</property>
+        <!--Definiciones de las entidades-->
+        <mapping class="com.ipn.mx.modelo.entidades.Categoria"/>
+        <mapping class="com.ipn.mx.modelo.entidades.Producto"/>
+        <mapping class="com.ipn.mx.modelo.entidades.Usuario"/>
+    </session-factory>
+</hibernate-configuration>

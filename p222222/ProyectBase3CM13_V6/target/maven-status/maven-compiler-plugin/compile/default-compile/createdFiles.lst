@@ -1,0 +1,8 @@
+com\ipn\mx\modelo\entidades\Producto.class
+com\ipn\mx\actions\CategoriaAction.class
+com\ipn\mx\modelo\entidades\Usuario.class
+com\ipn\mx\utilerias\EnviarMail.class
+com\ipn\mx\utilerias\HibernateUtil.class
+com\ipn\mx\modelo\dao\CategoriaDAO.class
+com\ipn\mx\actions\FactorialAction.class
+com\ipn\mx\modelo\entidades\Categoria.class

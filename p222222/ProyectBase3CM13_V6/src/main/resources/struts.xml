@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+    "http://struts.apache.org/dtds/struts-2.5.dtd"
+    >
+<struts>
+    <package name="default" namespace="/" extends="struts-default">
+        <action name="factorial" class="com.ipn.mx.actions.FactorialAction">
+            <result name="success">
+                /factorial.jsp
+            </result>
+        </action>
+        <!-- Acciones de las categorias-->
+        <action name="listarCategorias" method="listarCategorias" class="com.ipn.mx.actions.CategoriaAction">
+            <result name="success">
+                /categoria/listaCategoria.jsp
+            </result>
+        </action>
+        <action name="agregarCategoria" method="agregarCategoria" class="com.ipn.mx.actions.CategoriaAction">
+            <result name="success">
+                /categoria/categoria.jsp
+            </result>
+        </action>
+        <action name="almacenarCategoria" method="almacenarCategoria" class="com.ipn.mx.actions.CategoriaAction">
+            <result name="success" type="redirect">
+                listarCategorias
+            </result>
+        </action>
+        <action name="eliminarCategoria" method="eliminarCategoria" class="com.ipn.mx.actions.CategoriaAction">
+            <result name="success" type="redirect">
+                listarCategorias
+            </result>
+        </action>
+        <action name="actualizarCategoria" method="actualizarCategoria" class="com.ipn.mx.actions.CategoriaAction">
+            <result name="success">
+                /categoria/categoria.jsp
+            </result>
+        </action>
+    </package>
+</struts>
